@@ -6,6 +6,6 @@ import {
 
 const router = Router();
 
-router.post("/", contactFormValidation, contactForm);
+router.post("/contact", contactFormValidation, contactForm);
 
 export default router;
