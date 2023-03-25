@@ -6,6 +6,6 @@ import {
 
 const router = Router();
 
-router.post("/contact", contactFormValidation, contactForm);
+router.post("/api/contact", contactFormValidation, contactForm);
 
 export default router;
